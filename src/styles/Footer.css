@@ -1,0 +1,72 @@
+.footer-container{
+    background-color: #F5FAFF;
+    padding-top: 4rem;
+    margin-top: 4rem;
+
+    .footer-sub-section{
+        display: flex;
+        width: 89%;
+        justify-content: space-between;
+        margin: auto;
+        border-top: 1px solid #DFDFDF;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+
+        p{
+            color: #535353;
+            font-size: 14px;
+        }
+        
+        button{
+            padding: 0.5rem;
+            border: none;
+            color: #535353;
+            /* background-color: transparent; */
+            
+        }
+        button:hover{
+            background-color: #4584FF;
+        }
+    }
+
+    .footer-logo-image{
+        padding-bottom: 4rem;
+    }
+    
+    .header-nav {
+        list-style-type: none;
+        /* Remove default bullet points */
+        margin: 0;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        padding: 5.5px 0 5.3px 0;
+    }
+    
+    .footer-nav li {
+        display: inline-block;
+        /* Display items horizontally */
+        margin-right: 71px;
+        /* Adjust spacing between items */
+        /* color: #ffffff; */
+        color: #4A5568;
+        font-weight: 300;
+        cursor: pointer;
+    }
+    
+    .footer-nav li:last-child {
+        margin-right: 0;
+        /* Remove margin from the last item */
+    }
+    
+    .footer-nav li a {
+        text-decoration: none;
+        /* Remove underline from links */
+        color: #4A5568;
+        ;
+        /* Set link color */
+        font-weight: bold;
+        /* Optionally, make the text bold */
+    }
+
+}

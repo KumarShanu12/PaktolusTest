@@ -1,0 +1,171 @@
+.contact-us-container {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    justify-content: space-between;
+    /* background-color: aquamarine; */
+    padding: 1rem;
+
+
+}
+
+.contact-us-container-first-sec {
+    background-color: #007DFC;
+    flex: 1;
+    padding-bottom: 18rem;
+    border-radius: 1rem;
+
+    h1 {
+        padding: 4rem 0 2rem 7rem;
+        text-align: left;
+        color: #FFFFFF;
+    }
+
+    p {
+        padding: 0rem 0 2rem 7rem;
+        text-align: left;
+        color: #FFFFFF;
+        font-weight: 400;
+        font-size: 18px;
+
+        padding-bottom: 5rem;
+    }
+
+    .contact-us-info {
+        display: flex;
+        padding-left: 7rem;
+        gap: 1rem;
+
+        span {
+            color: #FFFFFF;
+        }
+
+        img {
+            height: 20px;
+        }
+    }
+
+    .contact-us-location-info {
+        padding: 4rem 0 4rem 7rem;
+    }
+
+    .address-sec {
+        display: inline-block;
+        word-wrap: break-word;
+        width: 217px;
+    }
+
+}
+
+.contact-us-container-second-sec {
+    flex: 1.5;
+
+    .contact-us-name-section {
+        display: flex;
+        padding-top: 4rem;
+        width: 80%;
+        margin: auto;
+        justify-content: space-around;
+
+        label {
+            color: #8D8D8D;
+            float: left;
+            font-size: 14px;
+        }
+    }
+
+
+    .contact-us-first-name-input {
+        border: none;
+        border-bottom: 1px solid #8D8D8D;
+        width: 278px;
+        outline: none;
+        padding: 1rem 0 0 0;
+    }
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+input[type="radio"]+label {
+    position: relative;
+    padding-left: 25px;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+input[type="radio"]+label:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 2px;
+    width: 16px;
+    height: 16px;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+}
+
+input[type="radio"]:checked+label:before {
+    content: '\2713';
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #FFFFFF;
+    border: 1px solid #007bff;
+    background-color: #000000;
+    border-radius: 50%;
+}
+
+.contact-us-choose-subject {
+    padding-top: 6rem;
+
+
+}
+
+.contact-us-subject-radio {
+    padding-top: 2rem;
+    margin-right: 4rem;
+    /* padding-left: 2rem; */
+
+    label {
+        padding-right: 1.5rem;
+    }
+}
+
+.contact-us-message {
+    float: left;
+    padding-left: 5rem;
+    padding-top: 7rem;
+
+    p {
+        text-align: left;
+        color: #8D8D8D;
+    }
+
+
+    input {
+        outline: none;
+        border: none;
+        padding-top: 1rem;
+        width: 619px;
+        border-bottom: 1px solid #8D8D8D;
+
+
+    }
+
+    .contact-message-btn {
+        display: flex;
+        justify-content: flex-end;
+        padding: 3rem 0;
+
+        button {
+            padding: 1rem 3.5rem;
+            border-radius: 2rem;
+            background-color: #007DFC;
+            border: none;
+            color: #FFFFFF;
+            font-weight: 500;
+        }
+    }
+}

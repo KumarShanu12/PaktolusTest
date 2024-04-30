@@ -1,0 +1,145 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+
+
+.pre-header {
+
+    /* height: 100px; */
+    /* padding: 1.063rem; */
+    background-color: #007DFC;
+    display: flex;
+    justify-content: space-between;
+
+    .pre-header-first-section,
+    .pre-header-second-section {
+
+        display: flex;
+        padding-left: 6.25rem;
+
+
+        img {
+            height: 20px;
+        }
+
+
+        .header-nav {
+            list-style-type: none;
+            /* Remove default bullet points */
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            padding: 5.5px 0 5.3px 0;
+        }
+
+        .header-nav li {
+            display: inline-block;
+            /* Display items horizontally */
+            margin-right: 22px;
+            /* Adjust spacing between items */
+            color: #ffffff;
+            font-weight: 300;
+        }
+
+        .header-nav li:last-child {
+            margin-right: 0;
+            /* Remove margin from the last item */
+        }
+
+        .header-nav li a {
+            text-decoration: none;
+            /* Remove underline from links */
+            color: #333;
+            /* Set link color */
+            font-weight: bold;
+            /* Optionally, make the text bold */
+        }
+
+    }
+
+    .pre-header-second-section {
+        display: flex;
+        padding-right: 6.25rem;
+
+        img {
+            height: 20px;
+        }
+
+
+    }
+
+
+}
+
+.post-header {
+
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25px;
+    padding-bottom: 25px;
+
+
+
+    .post-header-first-section,
+    .post-header-second-section {
+
+        display: flex;
+        padding-left: 6.25rem;
+
+
+        img {
+            height: 20px;
+        }
+
+
+        .header-nav {
+            list-style-type: none;
+            /* Remove default bullet points */
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            padding: 5.5px 0 5.3px 0;
+        }
+
+        .header-nav li {
+            display: inline-block;
+            /* Display items horizontally */
+            margin-right: 71px;
+            /* Adjust spacing between items */
+            /* color: #ffffff; */
+            color: #4A5568;
+            font-weight: 300;
+            cursor: pointer;
+        }
+
+        .header-nav li:last-child {
+            margin-right: 0;
+            /* Remove margin from the last item */
+        }
+
+        .header-nav li a {
+            text-decoration: none;
+            /* Remove underline from links */
+            color: #4A5568;
+            ;
+            /* Set link color */
+            font-weight: bold;
+            /* Optionally, make the text bold */
+        }
+
+    }
+
+    .post-header-second-section {
+        display: flex;
+        padding-right: 6.25rem;
+
+         
+
+
+    }
+}
